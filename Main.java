@@ -60,7 +60,7 @@ public class Main {
         int x;
         do {
             System.out.println("Введите текущий баланс");
-            while (!sc.hasNextInt() & !sc.hasNext()) {
+            while (!sc.hasNextInt()) {
                 System.out.println("Неверно");
                 user.setBalance(sc.nextInt());
             }
